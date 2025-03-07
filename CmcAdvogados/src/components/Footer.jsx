@@ -3,7 +3,7 @@ import cmcFooter from '../assets/img/Logo CMC Rodapé.png'
 
 function Footer() {
     return (
-        <footer style={{color:'#1d3695',paddingInline:180}}>
+        <footer style={{color:'#1d3695',paddingInline:180}} className='pt-20'>
             <div className="flex w-full items-center">
                 <p style={{ fontSize: 19, fontFamily: 'CabinetGrotesk-Medium' }} className="flex-shrink-0">
                     Inscreva-se para receber nossa newsletter de artigos e notícias relevantes
@@ -40,9 +40,6 @@ function Footer() {
                     <a href="#" className="hover:underline">Política de privacidade</a>
                 </p>
             </div>
-
-
-            
     </footer>
     );
   }
