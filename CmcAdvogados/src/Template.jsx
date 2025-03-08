@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import DeskPage from './pages/DeskPage';
 import IfComponent from './components/IfComponent';
+import ProfessionalPages from './pages/ProfessionalPages';
+
 function Template() {
   const [page,setPage] = useState('H')
 
@@ -21,7 +23,7 @@ function Template() {
       </IfComponent>
 
       <IfComponent conditional={page == 'P'}>
-        profissionais
+        <ProfessionalPages/>
       </IfComponent>
 
       <IfComponent conditional={page == 'C'}>
