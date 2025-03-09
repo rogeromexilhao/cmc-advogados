@@ -11,7 +11,7 @@ function Template() {
   const [page,setPage] = useState('H')
 
   return (
-    <div className='pt-10 pb-20' style={{backgroundColor:'#fcf6eb'}}>
+    <div className='pt-10 pb-10' style={{backgroundColor:'#fcf6eb'}}>
       <Header setPage={setPage}/>
 
       <IfComponent conditional={page == 'H'}>

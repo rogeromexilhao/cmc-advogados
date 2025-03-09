@@ -6,9 +6,9 @@ import instituicoes from '../assets/img/CMC - logos instituições.png'
 function DeskPage() {
     return (     
         <div>
-            <div className="relative top-0 left-0 w-full h-screen -z-10">
+            <div className="top-0 left-0 w-full h-screen -z-10">
                 <div
-                    className="relative w-full bg-cover bg-center" 
+                    className="w-full bg-cover bg-center" 
                     style={{ backgroundImage: `url(${escritorio})`,height:741 }}
                 >
                     <div 
